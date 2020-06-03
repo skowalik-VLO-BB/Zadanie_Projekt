@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Rzuty Fizyczne.</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    </head>
+    <body>
+    <div id = "container">
+        <div id="top">
+        <h1>Rzuty fizyczne - Projekt Sebastiana Kowalika</h1>
+        </div> </div>
+            <div id="left-menu"> 
+                <div id="y"> 
+                &nbsp;<a href="index1.html">Odśwież</a> </div> <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Wprowadzenie <br></a> <br><br><br><br>
+               &nbsp; <a href="index1.html">Spadek swobodny <br></a> <br><br><br><br>
+               &nbsp;&nbsp;&nbsp; <a href="index2.html">Rzut pionowy <br></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index2.html">w dół <br></a><br><br><br><br>
+                &nbsp; &nbsp;&nbsp;&nbsp;
+                <a href="index3.html">Rzut pionowy <br></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="index3.html">w górę<br></a>
+                <br><br><br><br>
+               &nbsp;&nbsp;&nbsp; &nbsp;<a href="index4.html">Rzut poziomy<br></a> <br><br><br><br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="index5.html">Rzut ukośny<br></a><br><br><br>
+                <div id="cof"> 
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Cofnij</a> </div>
+
+        
+        </div>
+                
+        <script>
+function setup(){var spadek12=createCanvas(400,400); 
+    spadek12.parent("spadek12");}
+var x = 180;
+var y = 40;
+draw = function() {
+    background(230, 230, 126);
+    fill(125, 119, 77);
+    rect(-1, 305, 401, 100);
+    fill(0, 0, 0);
+    rect(50, 150, 2, 30);
+    rect(50, 165, 15, 2);
+    rect(65, 150, 2, 30);
+    rect(100, 50, 1, 230);
+    triangle(92, 50, 108, 50, 100, 25);
+    triangle(92, 280, 108, 280, 100, 305);
+    fill(255, 255, 255);
+    ellipse(x, y, 20, 20);
+y+=2;
+if (y===300){
+y=40;}
+
+};
+
+        </script>     
+             
+            
+                </div>
+    <div id="content">
+        <a name="2" />
+<p>Pierwszym i jednocześnie najprostszym rzutem jaki rozpatrzymy będzie tak zwany spadek swobodny. Jest to ruch jednostajnie przyspieszony nie posiadający prędkości początkowej. Ruch ten odbywa się tylko i wyłącznie pod wpływem siły grawitacji. Drogę przebytą przez ciało dla ułatwienia nazywamy wysokością. <br> <br> Przykładem takiego ruchu może być: 
+        <ul>
+        <li>ruch planet wokół Słońca</li>
+        <li>spadek masywnego ciała w pobliżu powierzchni ziemi z niewielkiej odległości</li>
+        </ul>  
+<br> 
+        
+    <div id="spadek12"> </div>    
+<div id="spadek_obrazek"><img src="warto%C5%9Bci_spadek.png" alt="Wzory właściwe dla spadku swobodnego"></div> 
+    <br><br><br><br><br><br><br><br><br><br>
+        
+    <div id="przejscie">
+        <br><br><a href="index2.html">Następna strona - "Rzut pionowy w dół"</a></p>
+        </div>
+        
+       
+ </div>
+         
+
+                   
+        
+        
+                
+        </body>
+</html>

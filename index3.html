@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rzuty Fizyczne.</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    </head>
+    <body>
+    <div id = "container">
+        <div id="top">
+        <h1>Rzuty fizyczne - Projekt Sebastiana Kowalika</h1>
+        </div> </div>
+            <div id="left-menu"> 
+                <div id="y"> 
+                &nbsp;<a href="index3.html">Odśwież</a> </div> <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Wprowadzenie <br></a> <br><br><br><br>
+               &nbsp; <a href="index1.html">Spadek swobodny <br></a> <br><br><br><br>
+               &nbsp;&nbsp;&nbsp; <a href="index2.html">Rzut pionowy <br></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index2.html">w dół <br></a><br><br><br><br>
+                &nbsp; &nbsp;&nbsp;&nbsp;
+                <a href="index3.html">Rzut pionowy <br></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="index3.html">w górę<br></a>
+                <br><br><br><br>
+               &nbsp;&nbsp;&nbsp; &nbsp;<a href="index4.html">Rzut poziomy<br></a> <br><br><br><br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="index5.html">Rzut ukośny<br></a><br><br><br>
+                <div id="cof"> -
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="index2.html">Cofnij</a> </div>
+
+        </div>
+ <script>               
+function setup(){var gora12=createCanvas(400,400); 
+    gora12.parent("gora12");}
+var x=180;
+var y=300;
+var t=0;
+draw = function() {
+    background(230,230,126);
+    fill(125, 119, 77);
+    rect(-1,305,401,100);
+    fill(0, 0, 0);
+    textSize(20);
+    text("Hmax", 190, 35);
+    strokeWeight(4);
+    point(180,40);
+    strokeWeight(1);
+    rect (210, 270,0,20);
+    strokeWeight(1.5);
+    line(237, 256, 231,280);
+    line(225, 256, 231,280);
+    strokeWeight(1);
+    fill(230,230,126);
+    ellipse(238,280,7,9);
+    fill(0, 0, 0);
+    triangle(207,270,213,270,210,250);
+    rect(50,150,2,30);
+    rect(50,165,15,2);
+    rect(65,150,2,30);
+    rect(100,50,1,230);
+    triangle(92,50,108,50,100,25);
+    triangle(92,280,108,280,100,305);
+    fill(255, 255, 255);
+    ellipse(x,y,20,20);
+
+y=300-65*(4-(t-2)*(t-2));
+if(t>4)
+{
+    t=0;
+    
+}
+t+=1/50;
+};
+
+
+        </script>              
+             
+            
+                </div>
+    <div id="content">
+        <a name="1" />
+<p>Drugim i jednocześnie ostatnim ruchem z tej grupy jest rzut pionowy w górę. Jest to ruch jednostajnie opóźniony z prędkością początkową różną od 0. Na maksymalnej wysokości ciało zatrzymuje się i spada swobodnie. 
+<br>Można udowodnić, że czas wznoszenia na maksymalną wysokość jest taki sam, jak spadku swobodnego z tej wysokości. <br> <br>
+    Obliczenia z lewej strony odnoszą się do rzutu pionowego w góre, a z prawej do spadku swobodnego.
+        
+       
+<div id="spadek_obrazek"><img src="tabg%C3%B3r.png" alt="Wzory właściwe dla rzutu pionowego w dół."></div> &nbsp;&nbsp; 
+
+<div id="spadek1_obrazek"><img src="tabspadek.png" alt="Wzory właściwe dla rzutu pionowego w dół."></div>  
+       <br>
+            <div id="gora12"> </div>    
+
+    <div id="przejscie">
+      <br>   <br><br><a href="index4.html">Następna strona - "Rzut poziomy"</a>
+        
+        </div>
+        
+        
+                   
+        
+        
+                
+        </body>
+</html>
+

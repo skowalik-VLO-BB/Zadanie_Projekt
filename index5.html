@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rzuty Fizyczne.</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    </head>
+    <body>
+    <div id = "container">
+        <div id="top">
+        <h1>Rzuty fizyczne - Projekt Sebastiana Kowalika</h1>
+        </div> </div>
+            <div id="left-menu"> 
+                <div id="y"> 
+                &nbsp;<a href="index41.html">Odśwież</a> </div> <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Wprowadzenie <br></a> <br><br><br><br>
+               &nbsp; <a href="index1.html">Spadek swobodny <br></a> <br><br><br><br>
+               &nbsp;&nbsp;&nbsp; <a href="index2.html">Rzut pionowy <br></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index2.html">w dół <br></a><br><br><br><br>
+                &nbsp; &nbsp;&nbsp;&nbsp;
+                <a href="index3.html">Rzut pionowy <br></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="index3.html">w górę<br></a>
+                <br><br><br><br>
+               &nbsp;&nbsp;&nbsp; &nbsp;<a href="index4.html">Rzut poziomy<br></a> <br><br><br><br>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="index5.html">Rzut ukośny<br></a><br><br><br>
+                <div id="cof"> 
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="index41.html">Cofnij</a> </div>
+
+        </div>
+                
+           <script>               
+function setup(){var uko12=createCanvas(400,400); 
+    uko12.parent("uko12");}
+var x=49;
+var y=300;
+var t=0;
+draw = function() {
+    background(230,230,126);
+    fill(125, 119, 77);
+    rect(-1,305,401,100);
+    fill(0, 0, 0);
+    textSize(20);
+    text("Hmax", 190, 35);
+    strokeWeight(4);
+    point(180,40);
+    strokeWeight(1);
+    line (65,290,85,290);
+    triangle(80,285,80,295,90,290);
+    textSize(15);
+    text("Vx", 65, 305);
+    line (65,290,65,270);
+    triangle(60,275,70,275,65,265);
+    text("Vy", 48, 290);
+    line (50, 330,350,330);
+    triangle(340,325,340,335,350,330);
+    triangle(60,325,60,335,50,330);
+    textSize(20);
+    text("S-zasięg", 150,360);
+    fill(255, 255, 255);
+    ellipse(x,y,20,20);
+x+=1.5;
+if(x===349)
+{
+    x=49;
+}
+y=300-65*(4-(t-2)*(t-2));
+if(t>4)
+{
+    t=0;
+    
+}
+t+=1/50;
+};
+        </script>   
+             
+            
+                </div>
+    <div id="content">
+        <a name="1" />
+        <p>
+        
+ </p>
+
+    <p>Ostatnim, niestety najtrudniejszym ruchem jaki rozpatrzymy będzie rzut ukośny. <br>Jest to, podobnie jak w przypadku poziomego ruch złożony. Po osi X ciało porusza się jednostajnie prostoliniowo, a po osi Y ruchem jednostajnie opóźnionym z prędkością początkową. <br>
+        Łatwo jest sobie to wyobrazić mając przed oczami piłkarza kopiącego z ziemi piłkę jednocześnie w górę oraz do przodu.
+        </p>
+<div id="spadek_obrazek"><img src="warto%C5%9Bci_uko.png" alt="Wzory właściwe dla rzutu ukośnego."></div>
+    <div id="przejscie">
+        <div id="uko12"> </div>
+     <br><br> <br>  <br><br><a href="index51.html">Następna strona - "Rzut ukośny cd."</a>
+         
+        </div>
+        
+        
+                   
+        
+        
+                
+        </body>
+</html>

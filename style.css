@@ -1,0 +1,84 @@
+#2{
+        float:left;
+
+    text-align: left;
+}
+#3{
+        float:right;
+
+    text-align: right;}
+#container {
+    width: 1760px;
+    background-color: gray;
+}
+#top {
+    text-align: center;
+    width: 1890px;
+    height: 60px;
+    background-color: gray;
+    font-size: 25px;
+}
+#left-menu {
+    width: 165px;
+    height: 890px;
+       background-color: navajowhite;
+    float: left;
+    font-size: 20px;
+}
+#content {
+   
+    width: 1850px;
+    height: 850px;
+    background-color: whitesmoke;
+    float: center;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+#przejscie{
+  text-align: center; 
+}
+#footer {
+    text-align: left;
+    width: 1720px;
+    height: 30px;
+    float: left;  
+}
+#1{
+    font-weight: bold;
+}
+
+
+#y{
+    font-size: 40px;
+}
+#cof{
+    font-size: 35px;
+}
+#grawitacja_obrazek{
+    float:right;
+}
+#spadek_obrazek{
+    float:left;
+    border:5px solid #FF9900;
+    
+}
+#spadek1_obrazek{
+    position: static;
+    float: right;
+    border:5px solid #FF9900;
+    
+}
+#spadek2_obrazek{
+    position: static;
+    float: middle;
+    
+    
+}
+#spadek_skrypt{
+    border: 5px solid #FF9900;
+}
+#spadek12{
+
+float: right;
+}
